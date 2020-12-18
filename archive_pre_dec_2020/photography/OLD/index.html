@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+      <section class="Navbar">
+            <img class="brand" src="img/BL-Watermark.png">
+            <a class="rightButton">Portfolio</a>
+            <a class="rightButton">Contact</a>
+            <a class="rightButton">Prom</a>
+
+      </section>
+      
+      <section class="main-body">
+          <div class="left-section">
+              <img class="show-img" src="img/BLN_5307.jpg">
+          </div>
+          <div class="right-section">
+                <h1 class="header-prom"></h1>
+                <div class="bottom-half">
+                    <div class="box-container">
+                        <div class="box-info"></div>
+                    </div>
+                    <div class="box-container">
+                        <div class="box-info"></div>
+                     </div>
+                </div>
+                
+          </div>
+      </section>
+      
+      <section class="footer">
+            <div class="line"></div>
+      </section>
+
+    <style>
+        body { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; background-image: url("img/BKG_2.png"); background-attachment: fixed; background-position: center;background-size: 100% 100%;}
+        
+        .Navbar {padding: 50px; padding-left: 150px; padding-right: 150px; height: 140px; }
+        .Navbar .brand {height: 100%;}
+        .rightButton {float: right; display: inline-block; height: 100%; ; width: 80px;  position: relative; vertical-align: middle; display: flex; justify-content: center; align-content: center; flex-direction: column; text-align: center; color: black;text-decoration: none; font-size: 15px;}
+         .rightButton:hover {text-decoration: none;color: black; opacity: 0.5; cursor: default}
+        .main-body {height: 800px; padding: 150px;  padding-top: 0px; padding-bottom: 0px; }
+        .main-body .left-section {float: left; width: 40%; height: 100%;}
+        .main-body .left-section .show-img {height: auto; width: 100%}
+        .main-body .right-section {float: left; width: 60%; height: 100%; padding-left: 50px;background-color: whitel}
+        .main-body .right-section h1 {text-align: center; font-size: 50px; height: 100px;display: inline-block;position: relative; vertical-align: middle; display: flex; justify-content: center; align-content: center; flex-direction: column; text-align: left;padding-left: 20px; }
+        .main-body .right-section .line {height: 4px; background-color: black}
+        .main-body .right-section .bottom-half {height: 550px; padding-top: 20px;}
+        .box-container {height: 100%; float: left; width: 50%; padding: 20px;}
+        .box-in o {width: 100%; height: 100%; border-style: solid; border-color: black;  border-radius: 30px; border-width: 2px;}
+        
+        .footer {padding:150px;padding-top: 50px;}
+        .footer .line {background-color: black; height: 2px;}
+
+    </style>
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
